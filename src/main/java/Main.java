@@ -1,11 +1,16 @@
+import ru.netology.sqr.SQRService;
+
 public class Main {
     public static void main(String[] args) {
-        int count = 0;
-        int i = 10;
-        int i <=99;
-        int x = i * i;
-        //диапазон от 300 до 400//
+        SQRService service = new SQRService();
 
-        System.out.println("Количество подходящих чисел: " + count);
+        /* от 300 до 400 / квадрат *
+        количество/
+         */
+
+        for (int i = 10; i <= 99; i++) ;
+        int count = service.sqrtceil(300, 400);
+        System.out.println("Квадратов в диапазоне: " + count);
     }
 }
+
